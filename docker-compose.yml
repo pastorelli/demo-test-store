@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  zara-store-service:
+    build:
+      context: .
+      tags:
+        - zara-store-service
+    ports:
+      - "8080:8080"
